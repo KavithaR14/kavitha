@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .filters {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 15px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  select {
+    padding: 5px;
+    margin-left: 10px;
+  }
+  
+  .doctor-profiles {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Creates 2 columns for doctor profiles */
+    grid-gap: 20px;
+  }
+  
+  .doctor-profile {
+    display: flex;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .doctor-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .doctor-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .doctor-info h2 {
+    margin: 0;
+  }
+  
+  .doctor-info p {
+    margin: 5px 0;
+  }
+  
+  button {
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .view-profile {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .book-now {
+    background-color: #008CBA;
+    color: white;
+  }
+  
